@@ -8,7 +8,9 @@
  *
  */
 
-function Box ({width, height, backgroundColor}) {
+function Box (styles) {
+  const {width, height, backgroundColor} = styles;
+
   const boxStyles = {
     width,
     height,
